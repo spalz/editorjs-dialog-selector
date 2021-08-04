@@ -5,11 +5,12 @@ const IS_PRODUCTION = process.env.NODE_ENV === "production";
 module.exports = {
     mode: IS_PRODUCTION ? "production" : "development",
     entry: "./src/index.js",
-    target: "node",
     output: {
         path: path.resolve(__dirname, "./dist"),
-        library: "editorjs-component-selector",
-        libraryTarget: "umd"
+        filename: "bundle.js",
+        library: "ComponentSelectorTool",
+        libraryTarget: "umd",
+        libraryExport: "default"
     },
     module: {
         rules: [

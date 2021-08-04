@@ -1,12 +1,12 @@
 {
-    "name": "editorjs-component-selector",
+    "name": "editorjs-dialog-selector",
     "version": "0.0.4",
     "description": "",
     "main": "dist/main.js",
     "author": "vlzh",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/VLZH/editorjs-component-selector"
+        "url": "git+https://github.com/spalz/editorjs-dialog-selector"
     },
     "scripts": {
         "start": "webpack --watch",
